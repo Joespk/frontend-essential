@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+body {
+  background-color: darksalmon;
+  font-family: "Itim", cursive;
+}
+
+.milestones-card {
+  display: inline-block;
+  background-color: hsl(271, 38%, 61%);
+  box-shadow: 5pc 2pc 50px 5px #09d0eb;
+  width: 500px;
+  height: auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 30px 60px;
+}
+
+.headtext {
+  background-color: aqua;
+  box-shadow: 0 0 10px 5px rgb(0 0 0/0.1);
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 0;
+  font-style: italic;
+  color: palevioletred;
+}

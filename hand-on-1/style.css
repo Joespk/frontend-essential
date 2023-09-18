@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+.site-web {
+  font-family: "Poppins", sans-serif;
+  color: #2a2d48;
+  display: block;
+  padding: 18px 42px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 12%),
+    0px 4px 5px 0px rgb(0 0 0 / 12%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.link-web {
+  font-family: "Poppins", sans-serif;
+  margin: 16px;
+  text-decoration: none;
+  color: #2c2b47;
+}
+
+.nav-web {
+  display: inline-block;
+  margin-left: 18px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading-text {
+  display: inline-block;
+}
+
+header {
+  display: block;
+}
