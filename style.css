@@ -1,23 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: darksalmon;
   font-family: "Itim", cursive;
 }
+nav {
+  width: 100%;
+  height: auto;
+  padding: 12px 20px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 10px 5px color(0 0 0 /0.1);
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 
 .milestones-card {
-  display: inline-block;
   background-color: hsl(271, 38%, 61%);
   box-shadow: 5pc 2pc 50px 5px #09d0eb;
   width: 500px;
   height: auto;
+  border: 10px;
   border-radius: 8px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
   margin: 30px 60px;
+  align-items: center;
 }
 
 .headtext {
   background-color: aqua;
-  box-shadow: 0 0 10px 5px rgb(0 0 0/0.1);
+  box-shadow: 2px 5px 10px 5px #e409eb;
   width: 50%;
   height: auto;
   border-radius: 8px;
@@ -25,4 +47,17 @@ body {
   margin: 0;
   font-style: italic;
   color: palevioletred;
+}
+
+.Milestones-container {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.hello-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
 }

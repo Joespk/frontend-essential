@@ -1,0 +1,35 @@
+.Text-center {
+  text-align: center;
+  padding: 0 25%;
+}
+
+.Content {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Box-content {
+  display: flex;
+  line-height: 1.5;
+  flex-direction: column;
+  margin: 5px;
+  width: 25%;
+  height: 335px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.link-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  height: 25%;
+  font-size: 20px;
+  margin: 5px;
+}
