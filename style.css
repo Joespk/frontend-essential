@@ -61,3 +61,16 @@ nav {
   justify-content: space-between;
   gap: 20px;
 }
+
+@media (max-width: 764px) {
+  .Milestones-container {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .milestones-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}

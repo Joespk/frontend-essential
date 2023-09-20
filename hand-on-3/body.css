@@ -41,3 +41,20 @@
   padding: 0 0;
   margin: 5px;
 }
+
+@media (max-width: 1080px) {
+  .Content {
+    flex-wrap: wrap;
+  }
+  .Box-content {
+    flex: 1;
+    min-width: calc(45%);
+  }
+}
+
+@media (max-width: 478px) {
+  .Box-content {
+    flex: 1;
+    min-width: calc(100%);
+  }
+}
