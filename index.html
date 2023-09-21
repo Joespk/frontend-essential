@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <nav>
-      <p class="animate">cleverse Acadamy</p>
+      <p>cleverse Acadamy</p>
       <button>Login</button>
     </nav>
-    <div class="hello-container"> 
+
+    <div class="hello-container">
       <h1>Hello world</h1>
       <h2>This is heading 2</h2>
       <p>This is a paragrph</p>
       <hr />
     </div>
-    
+
     <div class="Milestones-container">
       <div class="milestones-card">
         <!-- * Frontend Milestones -->
         <h2 class="headtext">Frontend Milestones</h2>
-        <ol >
+        <ol id="frontend-milestone">
           <li>อยากเขียนJavascript เก่งๆ</li>
           <li>อยากเขียนหน้าต่างเว็บไซด์ของตัวเองได้</li>
           <li>อยากทำเว็บไซด์ที่สามารถinteractive เจ๋ง กับคนได้</li>
@@ -35,7 +37,7 @@
       <div class="milestones-card">
         <!-- *Back Milestones-->
         <h2 class="headtext">Backend Milestones</h2>
-        <ol>
+        <ol id="backend-milestone">
           <li>อยากเขียนเว็บAdminสำหรับเก็บข้อมูล</li>
           <li>อยากใช้ nodejs docker sql mysqlเป็น</li>
           <li>อยากสร้างเว็บไซด์ที่บอกสถิติ แล้วanalyticsได้</li>
@@ -49,16 +51,16 @@
     <div>
       <p>Form</p>
       <form>
-        <label for="Username">Username :</label>
-        <input type="text" id="Username" required />
-
-        <label for="email">Email :</label>
-        <input typr="email" id="email" required />
-
-        <label for="password">password :</label>
-        <input type="password" id="password" required />
-
-        <button type="Submit">Login</button>
+        <label for="frontend">Add Front-end Milestone:</label>
+        <input type="text" id="frontend" />
+        <button id="add-front">Submit</button>
       </form>
+      <br />
+      <form>
+        <label for="backend">Add Back-end Milestone:</label>
+        <input type="text" id="backend" />
+        <button id="add-back">Submit</button>
+      </form>
+    </div>
   </body>
 </html>

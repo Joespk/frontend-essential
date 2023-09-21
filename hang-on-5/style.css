@@ -1,0 +1,16 @@
+.list-decoration {
+  text-decoration: line-through;
+}
+
+.deletebutton {
+}
+
+li {
+  padding: 10px 10px;
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  display: inline-flex;
+  gap: 10px;
+}
