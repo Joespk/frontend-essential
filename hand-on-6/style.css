@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+.site-web {
+  color: #2a2d48;
+  display: block;
+  padding: 18px 42px;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 12%),
+    0px 4px 5px 0px rgb(0 0 0 / 12%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+.link-web {
+  margin: 16px;
+  text-decoration: none;
+  color: #2c2b47;
+}
+
+.nav-web {
+  display: inline-block;
+  margin-left: 18px;
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-text {
+  display: inline-block;
+}
+
+header {
+  display: block;
+}
+
+.site-mini {
+  background-color: #6d6d7a;
+  color: white;
+  padding: 12px;
+  margin: 24px 0;
+  border-radius: 6px;
+}
+
+.site-main {
+  width: 80%;
+  margin: auto;
+}
+.course {
+  background-color: #fbfbfb;
+  padding: 12px 18px;
+  margin: 24px 0;
+  border-radius: 12px;
+  border: 1px solid #e5e5e5;
+}
+
+.site-footer {
+  background-color: #2c2b47;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
