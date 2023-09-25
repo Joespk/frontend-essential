@@ -1,0 +1,16 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.inputtext {
+  background-color: brown;
+  font-weight: bold;
+  color: blue;
+  display: flex;
+}
+
+.submitbutton {
+  font-style: normal;
+  background-color: palevioletred;
+}
